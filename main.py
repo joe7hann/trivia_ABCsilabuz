@@ -28,9 +28,9 @@ print(CYAN+"█░░"+RESET,"CAMINO DEL INKA",CYAN+"░░█"+RESET)
 print(CYAN+"█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"+RESET)
 time.sleep(2)
 
-nombre = input(CYAN +"\nCual es tu nombre: "+RESET)
+nombre = input(CYAN +"\n¿Cuál es tu nombre?: "+RESET)
 
-print(MAGENTA+"Hola",nombre,"\nEn este juego, eres un Viajero del tiempo y llegas a 1532, en la llegada de los espanoles a cajamarca. \nComo CHASKI tienes la responsabilidad de avisar a Cusco la llegada de los espanoles al Tahuantinsuyo."+RESET)
+print(MAGENTA+"Hola",nombre,"\nEn este juego, eres un Viajero del tiempo y llegas a 1532, en la llegada de los españoles a cajamarca. \nComo CHASKI tienes la responsabilidad de avisar a Cusco la llegada de los españoles al Tahuantinsuyo."+RESET)
 time.sleep(5)
 
 #SELECION DE NICKNAME
@@ -46,12 +46,12 @@ nicknames = {
 sobrenombre = random.randint(0,4)
 #nicknames[str(random.randint(0,4))])
 print(CYAN+"\nTu sobrenombre en quechua es:"+RESET, nicknames[sobrenombre][0])
-print(CYAN+"Que en espanol significa:"+RESET, nicknames[sobrenombre][1])
+print(CYAN+"Que en español significa:"+RESET, nicknames[sobrenombre][1])
 time.sleep(5)
 #
 # Inicio Pregunta 1
 while iniciar_trivia == True:
-  print("\nLa Trivia comenzara en:")
+  print("\nLa Trivia empezará en:")
   for x in range (5,0,-1):
     print(RED,x,RESET)
     time.sleep(1)
@@ -63,7 +63,7 @@ while iniciar_trivia == True:
   print(YELLOW+"Tu puntaje inicial es de:", puntaje,"puntos"+RESET)
   time.sleep(5)
   #pregunta1
-  print(MAGENTA+"\n1) Cual es la capital historica de Peru?"+RESET)
+  print(MAGENTA+"\n1) ¿Cuál es la capital histórica del Perú?"+RESET)
   print(GREEN+"a.Arequipa")
   print("b.Lima")
   print("c.Cuzco")
@@ -99,7 +99,7 @@ while iniciar_trivia == True:
   # Final Pregunta 1
 
     #pregunta2
-  print(MAGENTA+"\n2) Cual es la montanha mas alta del Peru?"+RESET)
+  print(MAGENTA+"\n2) ¿Cuál es la montaña más alta del Perú?"+RESET)
   print(GREEN+"a.Huascaran")
   print("b.Yerupaja")
   print("c.Coropuna")
@@ -131,10 +131,10 @@ while iniciar_trivia == True:
   # Final Pregunta 2
 
     #pregunta3
-  print(MAGENTA+"\n3) Quien? escribio la obra 'Los comentarios reales'?"+RESET)
+  print(MAGENTA+"\n3) ¿Quién escribió la obra 'Los comentarios reales'?"+RESET)
   print(GREEN+"a.Mario Vargas Llosa")
   print("b.Inca Garcilazo de la Vega")
-  print("c.Cesar Acunha")
+  print("c.Cesar Acuña")
   print("d.Friedrich Nietzsche"+RESET)
 
   for x in range(3,0,-1):
@@ -163,7 +163,7 @@ while iniciar_trivia == True:
   # Final Pregunta 3
 
     #pregunta4
-  print(MAGENTA+"\n4) Cuantos anohs duro la guerra entre Peru y Chile?"+RESET)
+  print(MAGENTA+"\n4) ¿Cuántos años duro la guerra entre Perú y Chile?"+RESET)
   print(GREEN+"a.4")
   print("b.5")
   print("c.3")
@@ -195,7 +195,7 @@ while iniciar_trivia == True:
   # Final Pregunta 4
 
     #pregunta5
-  print(MAGENTA+"\n5) En que anho fue la Independencia del Peru?"+RESET)
+  print(MAGENTA+"\n5) ¿En qué año fue la Independencia del Perú?"+RESET)
   print(GREEN+"a.1822")
   print("b.1824")
   print("c.1823")
