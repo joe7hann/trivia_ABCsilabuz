@@ -76,7 +76,10 @@ while iniciar_trivia == True:
   respuesta_1 = input("\nIngresa tu respuesta: ")
   
   t1 = time.time()
+
   tf = round(t1-t0,2)#timepo final
+  if(tf>=10):
+    tf = 9
   print ("Te demoraste", tf,"segundos, en responder la pregunta")
   
   while respuesta_1 not in ("a","b","c","d"):
@@ -87,6 +90,7 @@ while iniciar_trivia == True:
     puntaje+= 10 -tf
     print("Correcto,", nombre,"bien hecho!\n")
     print(YELLOW,"Tu puntaje es de:",puntaje,"puntos",RESET)
+    time.sleep(5)
   else:
     print("Inconrrecto")
   time.sleep(3)
