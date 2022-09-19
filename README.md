@@ -4,5 +4,5 @@ Trivia desarrollada en el curso filtro: "ABC de la programación en python" de S
 https://replit.com/@JohannCondori/triviaABCsilabuz
 ### ¿Cómo jugar?
 * Abrir el link de ejecución
-* Click el verde (Run)
+* Click el botón verde (Run)
   ![image](image.png)
