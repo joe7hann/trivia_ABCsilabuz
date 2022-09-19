@@ -31,7 +31,7 @@ time.sleep(2)
 nombre = input(CYAN +"\nCual es tu nombre: "+RESET)
 
 print(MAGENTA+"Hola",nombre,"\nEn este juego, eres un Viajero del tiempo y llegas a 1532, en la llegada de los espanoles a cajamarca. \nComo CHASKI tienes la responsabilidad de avisar a Cusco la llegada de los espanoles al Tahuantinsuyo."+RESET)
-
+time.sleep(5)
 
 #SELECION DE NICKNAME
 
@@ -61,7 +61,7 @@ while iniciar_trivia == True:
   time.sleep(1)
   os.system("cls" if os.name == "nt" else "clear")
   print(YELLOW+"Tu puntaje inicial es de:", puntaje,"puntos"+RESET)
-  time.sleep(1)
+  time.sleep(5)
   #pregunta1
   print(MAGENTA+"\n1) Cual es la capital historica de Peru?"+RESET)
   print(GREEN+"a.Arequipa")
